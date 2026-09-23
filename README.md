@@ -1,3 +1,4 @@
+![Ninja 500 — AshmitaNotFound](ninja-banner.png)
 <p align="center">
   <img src="docs/banner.svg" alt="Ninja 500 — Interactive Showcase" width="100%">
 </p>
