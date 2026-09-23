@@ -58,7 +58,7 @@ Shop, utility icons, and social icons are visual elements only. This is a design
 
 ## License
 
-The original website source code (`index.html`, `style.css`, and `app.js`) and project documentation are licensed under the [MIT License](LICENSE). This permits reuse, modification, and redistribution of the code, including commercial use, subject to the license terms.
+The original website source code (`index.html`, `style.css`, and `app.js`) and project documentation are licensed under the (LICENSE). This permits reuse, modification, and redistribution of the code, including commercial use, subject to the license terms.
 
 The MIT license does **not** cover motorcycle images, reference screenshots, Kawasaki/Ninja names or logos, or bundled fonts. Fonts retain their included SIL Open Font Licenses. Other third-party assets remain subject to their owners' rights; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
