@@ -27,8 +27,6 @@
 
 I created the original Ninja 500 interface in **Figma** to practice product presentation, typography, color, and visual hierarchy.
 
-With assistance from **OpenAI Codex**, I turned the design into an interactive website while retaining the original font families, color themes, and supplied motorcycle images.
-
 The main experience lets visitors select a motorcycle color, watch a driving-inspired transition, and open an animated product-details panel.
 
 > **Unofficial student UI concept. Not affiliated with or endorsed by Kawasaki.**
@@ -198,8 +196,6 @@ After confirming you have permission to publish the included assets:
 ## 👩‍💻 My Contribution
 
 **Original Figma design and visual direction:** AshmitaNotFound.
-
-**Website code and animation implementation:** developed with assistance from OpenAI Codex.
 
 **README banner:** AI-generated artwork created for this project.
 
