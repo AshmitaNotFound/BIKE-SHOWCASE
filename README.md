@@ -1,65 +1,113 @@
-# Ninja 500 — Interactive UI Concept
+# 🏍️ Ninja 500 — Interactive Motorcycle Showcase
 
-A beginner portfolio project based on an original Figma motorcycle showcase. Built with HTML, CSS, and JavaScript, with the original bike images and Teko/Tektur typography.
+### Designed in Figma · Built with HTML, CSS & JavaScript
 
-**Unofficial student UI concept. Not affiliated with or endorsed by Kawasaki.**
+A motorcycle UI concept by **[AshmitaNotFound](https://github.com/AshmitaNotFound)**.
 
-## Features
+> Unofficial student design concept. Not affiliated with or endorsed by Kawasaki.
 
-- Green, silver, and black motorcycle selection.
-- Acceleration, motion blur, braking, and settling transitions.
-- Animated Explore More panel with the selected bike and supplied specifications.
-- Close the panel with its buttons or Escape.
-- Responsive layout and reduced-motion support.
-- Locally bundled images and fonts; no build step or API keys.
+## ✨ About the Project
 
-## Open locally
+I created this project in Figma to practice product presentation, typography, color, and visual hierarchy.
 
-Open `index.html` in a browser. Keep the `assets` folder beside it.
+With assistance from OpenAI Codex, I turned the design into an interactive website featuring animated motorcycle transitions and a slide-in details panel, while retaining my original font families, color themes, and supplied bike images.
 
-## Upload to GitHub
+## 🎬 Animations & Interactions
 
-1. Extract the ZIP on your computer.
-2. Create a repository on GitHub, for example `ninja-bike-showcase`.
-3. Choose **uploading an existing file**, or **Add file → Upload files**.
-4. Drag the extracted files and `assets` folder into the upload area. Upload the contents, not the ZIP or an extra enclosing folder. `index.html` must be at the repository root.
-5. Commit the files.
+### Motorcycle Color Selection
 
-## Publish with GitHub Pages
+Choose between **Green, Silver, and Black**.
 
-After confirming you have the necessary rights to publish the included images:
+- The current bike dips slightly before accelerating out of view.
+- Tilt and motion blur help create a sense of movement.
+- The selected bike enters from the left, decelerates, and settles into position.
+- Rapid clicks queue the latest color choice until the current transition finishes.
 
-1. Open the repository's **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/(root)**, then **Save**.
-4. Wait for GitHub to display your website link on the Pages settings screen.
+The movement uses the **JavaScript Web Animations API**. It simulates driving with flat PNG images; the wheels are not animated independently.
 
-No custom Actions workflow is required. GitHub handles deployment when the branch is updated.
+### Explore More
 
-Official instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Click **Explore More** to open an animated details panel containing:
 
-## Files
+- The selected motorcycle image and color.
+- The price shown in the original design.
+- Engine, styling, and riding-position information.
+
+Close the panel using **×**, **Back to the Bike**, or the **Escape key**.
+
+### Accessibility
+
+- Keyboard-accessible color controls.
+- Visible focus indicators.
+- Selected-color states.
+- Support for the device’s reduced-motion preference.
+
+## 🎨 Design Elements
+
+| Element | Details |
+| --- | --- |
+| Typography | Teko for headings and labels; Tektur for pricing |
+| Color themes | Green, charcoal, and silver |
+| Images | Supplied transparent motorcycle PNGs |
+| Layout | Large motorcycle imagery alongside product information |
+| Controls | Color selector and Explore More button |
+| Responsive styling | Layout adjustments for smaller screens |
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+| --- | --- |
+| Figma | Original interface design and asset exports |
+| HTML | Page structure and details dialog |
+| CSS | Layout, typography, responsiveness, and panel transitions |
+| JavaScript | Color selection and motorcycle animation |
+| OpenAI Codex | AI-assisted coding and animation implementation |
+| GitHub | Source-code storage |
+| GitHub Pages | Optional static website hosting |
+
+**No framework, installation, build step, or API key is required.**
+
+## 🚀 Run Locally
+
+1. Download and extract the project.
+2. Open `index.html` in a modern browser.
+3. Keep the `assets` folder beside the HTML, CSS, and JavaScript files.
+4. Select a motorcycle color and try **Explore More**.
+
+## 📁 Project Structure
 
 ```text
-index.html           Page structure and details panel
-style.css            Styling, responsive layout, and panel motion
-app.js               Color selection and bike driving animation
-assets/              Original images, local fonts, and font licenses
-THIRD_PARTY_NOTICES.md Asset ownership and attribution notes
+├── index.html
+├── style.css
+├── app.js
+├── assets/
+├── README.md
+├── LICENSE
+└── THIRD_PARTY_NOTICES.md
 ```
 
-## Credits and scope
+## 👩‍💻 My Contribution
 
-Original Figma concept and supplied assets: the project creator. Website implementation and animation: AI-assisted with OpenAI Codex.
+- **Original Figma design and visual direction:** AshmitaNotFound.
+- **Website code and animation:** developed with assistance from OpenAI Codex.
+- **Motorcycle imagery and Kawasaki branding:** third-party assets, not claimed as my original artwork.
 
-The bike artwork is a flat image: the motion simulates driving with translation, tilt, and blur; wheels are not separately rigged or animated.
+This project explores how movement, interaction, and responsive styling can bring a static design to life.
 
-Shop, utility icons, and social icons are visual elements only. This is a design prototype, not an online store. Prices and features are copied from the supplied design and are not current sales information.
+## 📌 Project Scope
 
-## License
+This is a portfolio prototype, **not an official Kawasaki website or an online store**.
 
-The original website source code (`index.html`, `style.css`, and `app.js`) and project documentation are licensed under the (LICENSE). This permits reuse, modification, and redistribution of the code, including commercial use, subject to the license terms.
+Shop, utility icons, and social icons are visual elements only. Prices and specifications come from the supplied design and are not verified current sales information.
 
-The MIT license does **not** cover motorcycle images, reference screenshots, Kawasaki/Ninja names or logos, or bundled fonts. Fonts retain their included SIL Open Font Licenses. Other third-party assets remain subject to their owners' rights; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+## 📜 Rights & Credits
 
-The image license/source has not been verified. A portfolio label or disclaimer does not grant permission to publish third-party imagery. Check the asset notices before making the repository public.
+**Copyright © 2026 AshmitaNotFound. All rights reserved.**
+
+No permission is granted to copy, modify, distribute, sell, or reuse original project contributions without prior written permission, except as permitted by applicable law or binding platform terms. See [LICENSE](LICENSE).
+
+Third-party images, Kawasaki/Ninja branding, and fonts remain subject to their respective owners’ rights and licenses. Teko and Tektur retain their included SIL Open Font Licenses.
+
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for asset information. Image permissions must be confirmed before public redistribution.
+
+This notice does not revoke permissions validly granted for copies previously distributed under another license.
