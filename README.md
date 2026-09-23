@@ -18,7 +18,6 @@
 <p align="center">
   Designed by <a href="https://github.com/AshmitaNotFound"><strong>AshmitaNotFound</strong></a>
   <br>
-  Website implementation assisted by OpenAI Codex
 </p>
 
 ---
