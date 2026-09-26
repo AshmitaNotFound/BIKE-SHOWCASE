@@ -1,191 +1,207 @@
-<div align="center">🏍️ NINJA 500
+<div align="center">
 
-AN INTERACTIVE MOTORCYCLE SHOWCASE
+# 🏍️ NINJA 500
+### *An Interactive Motorcycle Showcase*
 
-Designed in Figma · Built with HTML, CSS & JavaScript · Brought to life with motion
+**A UI experiment about making a static product feel alive.**
 
-<br><a href="https://ashmitanotfound.github.io/BIKE-SHOWCASE/">
+Designed in Figma → Built with HTML, CSS & JavaScript → Brought to life with motion
+
+<br>
+
+<a href="https://ashmitanotfound.github.io/BIKE-SHOWCASE/">
   <img src="https://img.shields.io/badge/🌐%20VIEW%20LIVE%20WEBSITE-111111?style=for-the-badge&labelColor=111111&color=7CFF00" alt="View Live Website">
-</a><br><br>
+</a>
 
-<img src="ninja-banner.png" alt="Ninja 500 Interactive Motorcycle Showcase" width="100%"></div><br><div align="center">A visual product experience built around speed, color, motion, and interaction.
+<br><br>
 
-</div>---
+<img src="ninja-banner.png" alt="Ninja 500 Interactive Motorcycle Showcase" width="100%">
 
-✦ THE CONCEPT
+<br>
 
-The Ninja 500 project started as a Figma UI concept focused on creating a bold, premium motorcycle presentation.
+*A visual product experience built around speed, color, motion, and interaction.*
 
-Instead of treating the motorcycle as a static product image, the interface was designed to make the bike itself feel like the interaction.
+</div>
 
-The experience combines:
+<br>
 
-PRODUCT PRESENTATION
-→ COLOR SELECTION
-→ MOTION
-→ PRODUCT DETAILS
+## Table of Contents
 
-«Unofficial student UI concept. Not affiliated with or endorsed by Kawasaki.»
+- [The Concept](#-the-concept)
+- [The Experience](#-the-experience)
+- [Design Direction](#-design-direction)
+- [From Figma to Interactive UI](#-from-figma--interactive-ui)
+- [Technology](#️-technology)
+- [Responsive & Accessible](#-responsive--accessible)
+- [Project Structure](#-project-structure)
+- [My Role](#-my-role)
+- [Project Scope](#-project-scope)
+- [Third-Party Assets](#️-third-party-assets)
+- [License](#-license)
 
----
-
-⚡ THE EXPERIENCE
-
-<div align="center">CHOOSE. MOVE. EXPLORE.
-
-</div>01 — SELECT THE BIKE
-
-Choose between three visual color variants:
-
-🟢 GREEN · ⚪ SILVER · ⚫ BLACK
-
-The selected motorcycle isn't simply swapped on screen.
-
-The interface creates a short transition sequence where the current bike accelerates away before the new selection arrives.
+<br>
 
 ---
 
-02 — EXPERIENCE THE MOTION
+## ✦ The Concept
 
-The motorcycle uses the JavaScript Web Animations API to create a driving-inspired transition.
+Most product pages treat the product as a photo. **Ninja 500 treats it as the interface.**
 
-The sequence combines:
+This project began as a Figma UI concept exploring a bold, premium way to present a motorcycle online — not as a static image sitting next to a spec sheet, but as something you *interact with directly*. Selecting a color doesn't just swap an asset; it triggers a moment. Opening the details doesn't just reveal text; it reframes the whole screen around it.
 
-- Forward acceleration
-- Slight tilt
-- Motion blur
-- Exit movement
-- Entry from the opposite side
-- Deceleration
-- Final positioning
+The experience is built around a simple loop:
 
-The result is intended to make a simple color switch feel more like changing the bike itself.
+<div align="center">
 
-«The motorcycle movement is simulated using flat PNG assets. The wheels are not animated independently.»
+**PRESENT** → **CHOOSE** → **MOVE** → **EXPLORE**
+
+</div>
+
+> *Unofficial student UI concept. Not affiliated with or endorsed by Kawasaki.*
+
+<br>
 
 ---
 
-03 — EXPLORE THE DETAILS
+## ⚡ The Experience
 
-Click Explore More to reveal the product information panel.
+<div align="center">
 
-The panel displays:
+### CHOOSE. MOVE. EXPLORE.
+
+</div>
+
+### 01 — Select the Bike
+
+Three visual color variants, one motorcycle:
+
+🟢 **Green** &nbsp;·&nbsp; ⚪ **Silver** &nbsp;·&nbsp; ⚫ **Black**
+
+Switching between them isn't a swap — it's a scene. The current bike doesn't just disappear; it accelerates off-screen before the next one arrives, so the color picker doubles as a tiny piece of choreography.
+
+### 02 — Feel the Motion
+
+Built on the **JavaScript Web Animations API**, the transition sequence layers together:
+
+| Stage | What happens |
+|---|---|
+| Exit | Forward acceleration, slight tilt, motion blur |
+| Transition | Full exit off-screen |
+| Entry | Arrival from the opposite side |
+| Settle | Deceleration into final position |
+
+The intent: make a simple color switch feel like *changing the bike itself*, not just its skin.
+
+> *The motorcycle movement is simulated using flat PNG assets. The wheels are not animated independently.*
+
+### 03 — Explore the Details
+
+Clicking **Explore More** dims the background and slides in a full product panel:
 
 - Motorcycle image
 - Selected color
-- Price from the original design
+- Price *(from the original design)*
 - Engine information
 - Styling information
 - Riding-position information
 
-The background becomes dimmed while the information panel slides into view.
+Closeable three ways — **× Close**, **Back to the Bike**, or **ESC** — because a good panel should never trap you.
 
-It can be closed using:
-
-× Close · Back to the Bike · ESC
+<br>
 
 ---
 
-🎨 DESIGN DIRECTION
+## 🎨 Design Direction
 
-<div align="center">BOLD · DARK · SPORTY · MINIMAL
+<div align="center">
 
-</div>The visual language was built around the characteristics of a performance motorcycle:
+### BOLD · DARK · SPORTY · MINIMAL
 
-DESIGN ELEMENT| DIRECTION
-Typography| Teko + Tektur
-Primary Palette| Green · Charcoal · Silver
-Visual Focus| Motorcycle
-Layout| Product-focused composition
-Interaction| Motion-driven
-Design Tool| Figma
-Overall Feel| Premium · Sporty · Cinematic
+</div>
 
-The interface intentionally keeps the motorcycle as the dominant visual element while using typography and spacing to create a strong product hierarchy.
+The visual language mirrors the characteristics of a performance motorcycle itself — nothing decorative, everything intentional.
 
----
+| Design Element | Direction |
+|---|---|
+| Typography | Teko + Tektur |
+| Primary Palette | Green · Charcoal · Silver |
+| Visual Focus | Motorcycle |
+| Layout | Product-focused composition |
+| Interaction | Motion-driven |
+| Design Tool | Figma |
+| Overall Feel | Premium · Sporty · Cinematic |
 
-🧩 FROM FIGMA → INTERACTIVE UI
+Typography and spacing are used deliberately to keep the motorcycle as the dominant visual element — the UI supports the product, it never competes with it.
 
-<div align="center">IDEA
-
-↓
-
-FIGMA DESIGN
-
-↓
-
-ASSET EXPORT
-
-↓
-
-HTML / CSS
-
-↓
-
-JAVASCRIPT INTERACTION
-
-↓
-
-MOTION
-
-↓
-
-FINAL EXPERIENCE
-
-</div>The original visual direction was created in Figma before being translated into a functional web interface.
-
-The goal wasn't simply to reproduce the design, but to preserve the original visual hierarchy while introducing interaction and motion.
+<br>
 
 ---
 
-🛠️ TECHNOLOGY
+## 🧩 From Figma → Interactive UI
 
-<div align="center"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<div align="center">
+
+**IDEA** → **FIGMA DESIGN** → **ASSET EXPORT** → **HTML / CSS** → **JAVASCRIPT INTERACTION** → **MOTION** → **FINAL EXPERIENCE**
+
+</div>
+
+The visual direction was fully designed in Figma before a single line of interaction code was written. The goal throughout translation was never to simply *reproduce* the design pixel-for-pixel — it was to **preserve its visual hierarchy** while giving it something Figma can't: motion and response.
+
+<br>
+
+---
+
+## 🛠️ Technology
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white"></div><br>TECHNOLOGY| ROLE
-Figma| UI design, composition & visual direction
-HTML| Page structure & product details
-CSS| Styling, responsive layout & transitions
-JavaScript| Interaction & animation sequencing
-Web Animations API| Motorcycle movement
-GitHub| Source-code management
-OpenAI Codex| AI-assisted implementation
+<img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white">
 
-No complicated setup.
+</div>
 
-There is:
+| Technology | Role |
+|---|---|
+| Figma | UI design, composition & visual direction |
+| HTML | Page structure & product details |
+| CSS | Styling, responsive layout & transitions |
+| JavaScript | Interaction & animation sequencing |
+| Web Animations API | Motorcycle movement |
+| GitHub | Source-code management |
+| OpenAI Codex | AI-assisted implementation |
 
-No framework · No build system · No API key · No external backend
+**No framework · No build system · No API key · No external backend.**
 
-The project is intentionally lightweight and can be hosted as a static website.
+It's intentionally lightweight — clone it, open `index.html`, and it runs. That's the whole setup.
+
+<br>
 
 ---
 
-📱 RESPONSIVE & ACCESSIBLE
+## 📱 Responsive & Accessible
 
-The interface also considers different screen sizes and interaction methods.
-
-Responsive
-
+**Responsive**
 - Mobile layout adjustments
 - Flexible motorcycle positioning
 - Adapted controls
 - Responsive product panel
 
-Accessibility
-
+**Accessible**
 - Keyboard-accessible color controls
 - Visible focus states
 - Clear selected-color indicators
-- "Escape" key support
+- `Escape` key support
 - Reduced-motion preference support
+
+<br>
 
 ---
 
-📂 PROJECT STRUCTURE
+## 📂 Project Structure
 
+```
 BIKE-SHOWCASE/
 │
 ├── index.html
@@ -203,16 +219,17 @@ BIKE-SHOWCASE/
 ├── README.md
 ├── LICENSE
 └── THIRD_PARTY_NOTICES.md
+```
+
+<br>
 
 ---
 
-👩‍💻 MY ROLE
+## 👩‍💻 My Role
 
-ORIGINAL DESIGN & CREATIVE DIRECTION
+### Original Design & Creative Direction — **AshmitaNotFound**
 
-AshmitaNotFound
-
-I created the original interface and visual direction in Figma, focusing on:
+The interface and visual direction were created from scratch in Figma, with a focus on:
 
 - Product presentation
 - Typography
@@ -223,63 +240,67 @@ I created the original interface and visual direction in Figma, focusing on:
 
 The website implementation was then developed from that design with AI-assisted coding support.
 
-AI CONTRIBUTION
+### AI Contribution
 
-The README banner was created using AI-generated artwork.
+- The README banner was created using AI-generated artwork.
+- OpenAI Codex was used to assist with the website implementation.
 
-OpenAI Codex was used to assist with the website implementation.
+<br>
 
 ---
 
-🏁 PROJECT SCOPE
+## 🏁 Project Scope
 
-This project is a portfolio / learning prototype, not an official Kawasaki website or online store.
+This is a **portfolio / learning prototype** — not an official Kawasaki website or online store.
 
-Prototype limitations
-
+**Prototype limitations:**
 - Shop and utility icons are visual elements only.
 - Social icons are visual elements only.
 - Motorcycle movement is simulated with flat images.
-- Prices and specifications are based on the supplied design and are not presented as verified current sales information.
-- The banner is illustrative AI-generated artwork rather than an official product photograph.
+- Prices and specifications reflect the supplied design and are not verified current sales information.
+- The banner is illustrative AI-generated artwork, not an official product photograph.
+
+<br>
 
 ---
 
-⚠️ THIRD-PARTY ASSETS
+## ⚠️ Third-Party Assets
 
-Motorcycle imagery, Kawasaki/Ninja branding, reference screenshots, and included fonts may belong to their respective owners.
-
-No ownership of third-party assets is claimed.
+Motorcycle imagery, Kawasaki/Ninja branding, reference screenshots, and included fonts may belong to their respective owners. No ownership of third-party assets is claimed.
 
 - Teko and Tektur retain their respective SIL Open Font Licenses.
 - Motorcycle images and branding remain subject to their respective rights.
 - An unofficial-project disclaimer does not grant permission to redistribute third-party assets.
 - Asset permissions should be confirmed before public redistribution.
 
-See "THIRD_PARTY_NOTICES.md" (THIRD_PARTY_NOTICES.md) for additional information.
+See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for additional information.
+
+<br>
 
 ---
 
-📜 LICENSE
+## 📜 License
 
 Copyright © 2026 AshmitaNotFound. All rights reserved.
 
-No permission is granted to copy, modify, distribute, sell, or reuse the original project code, design, or documentation without prior written permission, except where permitted by applicable law or binding platform terms.
+No permission is granted to copy, modify, distribute, sell, or reuse the original project code, design, or documentation without prior written permission, except where permitted by applicable law or binding platform terms. This applies only to original contributions to the extent protected by applicable law.
 
-This applies only to original contributions to the extent protected by applicable law.
+See [`LICENSE`](LICENSE) for the complete notice.
 
-See "LICENSE" (LICENSE) for the complete notice.
+<br>
 
 ---
 
-<br><div align="center">DESIGN → INTERACTION → MOTION
+<div align="center">
 
-A learning project by
+**DESIGN → INTERACTION → MOTION**
 
-<a href="https://github.com/AshmitaNotFound">
-  <strong>AshmitaNotFound</strong>
-</a><br><br>
+A learning project by **[AshmitaNotFound](https://github.com/AshmitaNotFound)**
+
+<br>
 
 <a href="https://ashmitanotfound.github.io/BIKE-SHOWCASE/">
   🌐 <strong>EXPLORE THE LIVE EXPERIENCE →</strong>
-</a></div>
+</a>
+
+</div>
