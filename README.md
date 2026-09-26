@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:1c3d1c&height=210&section=header&text=NINJA%20500&fontSize=62&fontColor=7CFF00&fontAlignY=38&desc=AN%20INTERACTIVE%20MOTORCYCLE%20SHOWCASE&descAlignY=58&descSize=17&descColor=e6e6e6&animation=fadeIn" width="100%" alt="Ninja 500 header banner">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,35:0d2818,70:1f5c1f,100:39FF14&height=220&section=header&text=NINJA%20500&fontSize=66&fontColor=ffffff&fontAlignY=35&desc=AN%20INTERACTIVE%20MOTORCYCLE%20SHOWCASE&descAlignY=58&descSize=18&descColor=7CFF00&animation=fadeIn" width="100%" alt="Ninja 500 header banner">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Teko&size=22&pause=1200&color=7CFF00&center=true&vCenter=true&width=560&lines=Designed+in+Figma;Built+with+HTML%2C+CSS+%26+JavaScript;Brought+to+life+with+motion" alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com/?font=Teko&size=22&pause=1200&color=39FF14&center=true&vCenter=true&width=560&lines=Designed+in+Figma;Built+with+HTML%2C+CSS+%26+JavaScript;Brought+to+life+with+motion" alt="Typing SVG">
 
 <br>
 
