@@ -1,11 +1,8 @@
 <div align="center">
 
-# 🏍️ NINJA 500
-### *An Interactive Motorcycle Showcase*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:1c3d1c&height=210&section=header&text=NINJA%20500&fontSize=62&fontColor=7CFF00&fontAlignY=38&desc=AN%20INTERACTIVE%20MOTORCYCLE%20SHOWCASE&descAlignY=58&descSize=17&descColor=e6e6e6&animation=fadeIn" width="100%" alt="Ninja 500 header banner">
 
-**A UI experiment about making a static product feel alive.**
-
-Designed in Figma → Built with HTML, CSS & JavaScript → Brought to life with motion
+<img src="https://readme-typing-svg.demolab.com/?font=Teko&size=22&pause=1200&color=7CFF00&center=true&vCenter=true&width=560&lines=Designed+in+Figma;Built+with+HTML%2C+CSS+%26+JavaScript;Brought+to+life+with+motion" alt="Typing SVG">
 
 <br>
 
